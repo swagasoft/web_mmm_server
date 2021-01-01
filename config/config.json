@@ -1,0 +1,13 @@
+{
+    "development": {
+        "MONGODB_URI": "mongodb+srv://swagasoft:simoopam222@cluster0-cexmj.mongodb.net/i-sabi?retryWrites=true&w=majority",
+        "JWT_SECRET": "SECRET#12300000"
+    },
+    "production": {
+        "MONGODB_URI": "mongodb+srv://swagasoft:simoopam222@cluster0-cexmj.mongodb.net/i-sabi?retryWrites=true&w=majority",
+        "JWT_SECRET": "SECRET#12300000"
+
+
+
+    }
+}   

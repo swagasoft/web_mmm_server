@@ -1,0 +1,37 @@
+{
+  "name": "farm_to_juice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": " node app.js"
+  },
+  "keywords": [],
+  "author": "simon jerry",
+  "license": "ISC",
+  "dependencies": {
+    "@types/socket.io": "^2.1.4",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cryptr": "^4.0.2",
+    "edge": "^7.10.1",
+    "express": "^4.17.1",
+    "express-edge": "^2.0.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.2.0",
+    "got": "^10.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.4",
+    "mongoose-simple-random": "^0.4.1",
+    "mongoose-unique-validator": "^2.0.3",
+    "node-fetch": "^2.6.0",
+    "nodemailer": "^6.3.1",
+    "nodemon": "^1.19.3",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {}
+}

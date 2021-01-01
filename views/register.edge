@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+
+<!-- Mirrored from i-sabi.firebaseapp.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Oct 2019 08:32:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>I-Sabi DashBoard</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/material.css">
+    <!-- <link rel="stylesheet" href="/assets/css/bootstrap-material-design.min.css"> -->
+    <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
+
+    <link rel="stylesheet" href="assets/css/icon.css">
+    <link rel="stylesheet" href="assets/css/isabi.css">
+    <script src="../www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+    <script src="../www.gstatic.com/firebasejs/5.3.0/firebase-auth.js"></script>
+    <script src="../www.gstatic.com/firebasejs/5.3.0/firebase-firestore.js"></script>
+
+</head>
+
+<body>
+<style>
+
+    html {
+    background-image: url('assets/images/whiteback.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body{
+    background: transparent;
+}
+
+    .is-focused{
+        background-image: none;
+        border: none;
+    }
+
+
+    .bmd-form-group .is-focused {
+        margin-bottom: 0px !important;
+        border: none !important;
+    }
+
+ 
+
+</style>
+<div class="demo-card-wide mdl-card mdl-shadow--2dp login-wrapper">
+    <div v-bind:class="{loginCover: loginCover}"></div>
+    <div id="p2" v-show="progress" class="mdl-progress mdl-js-progress mdl-progress__indeterminate" width="100%"></div>
+    <div class="mdl-card__title login-title">
+        <h2 class="mdl-card__title-text">Admin Login</h2>
+    </div>
+    <div v-show="error" class="alert alert-danger" style="display: none;">
+        @if(message)
+        <h1>{{message}} </h1>
+        @endif
+    </div>
+    <div class="mdl-card__supporting-text login-textfield-Holder">
+
+        <form name="admin-login" method="POST" action="/login">
+            <div class="">
+                <input name="mail" class="login-input" type="email" id="email" placeholder="Please enter email address">
+            </div>
+            <div class="">
+                <input name="txtPassword" class="login-input" type="password" id="password" placeholder="Please enter password">
+            </div>
+
+            <button type="submit"  
+            class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect login-btn"> LOGIN</button>
+        </form>
+    </div>
+ 
+</div>
+
+<!-- <script src="" async defer></script> -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/popper.js"></script>
+<script src="assets/js/bootstrap-material-design.js"></script>
+<script src="assets/js/material.js"></script>
+<script src="assets/js/vue.js"></script>
+<script src="assets/js/login.js"></script>
+</body>
+
+
+<!-- Mirrored from i-sabi.firebaseapp.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Oct 2019 08:33:03 GMT -->
+</html>
